@@ -1,0 +1,9 @@
+// Ruby 1.9 (and older) is officially End of Life.  All Ruby apps need to migrate to Ruby 2.0 or newer
+
+on job::/ {
+    { package.retire "package::/apcera/pkg/runtimes::ruby-1.9.3-p547" }
+}
+
+on job::/ {
+    { package.retire "package::/apcera/pkg/runtimes::ruby-1.8.7-p374" }
+}

@@ -1,0 +1,10 @@
+// Latest Ruby 2.0 package version is 2.0.0-p643, which contains security fixes.
+// All previous packages of Ruby 2.0 are now retired.
+
+on job::/ {
+    { package.retire "package::/apcera/pkg/runtimes::ruby-2.0.0-p353" }
+}
+
+on job::/ {
+    { package.retire "package::/apcera/pkg/runtimes::ruby-2.0.0-p481" }
+}

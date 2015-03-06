@@ -1,0 +1,9 @@
+// Update to latest Python and related modules for security fixes
+
+on job::/ {
+    { package.retire "package::/apcera/pkg/runtimes::python-2.7.8" }
+}
+
+on job::/ {
+    { package.retire "package::/apcera/pkg/runtimes::python-2.7.6" }
+}

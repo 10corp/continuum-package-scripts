@@ -1,0 +1,9 @@
+// Update to latest Python and related modules for security fixes
+
+on job::/ {
+    { package.retire "package::/apcera/pkg/runtimes::python-3.4.1" }
+}
+
+on job::/ {
+    { package.retire "package::/apcera/pkg/runtimes::python-3.4.0" }
+}

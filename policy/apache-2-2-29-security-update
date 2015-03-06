@@ -1,0 +1,5 @@
+// Update to latest Apache for security fixes
+
+on job::/ {
+    { package.retire "package::/apcera/pkg/runtimes::apache-2.2.27" }
+}
