@@ -1,0 +1,9 @@
+// Update to latest Git for security fixes
+
+on job::/ {
+    { package.retire "package::/apcera/pkg/runtimes::git-2.0.3" }
+}
+
+on job::/ {
+    { package.retire "package::/apcera/pkg/runtimes::git-1.8.5.3" }
+}

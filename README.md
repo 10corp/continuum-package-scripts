@@ -78,3 +78,8 @@ runtimes that can be pulled into Continuum.
 ### Patches
 
 Under the `patches` directory are various patches carried locally.
+
+# Policy
+
+Under the `policy` directory are example policy documents for retiring
+old package versions.

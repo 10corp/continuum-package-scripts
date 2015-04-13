@@ -1,0 +1,14 @@
+// Latest Ruby 2.1 package version is 2.1.5-apc1, which contains security fixes.
+// All previous packages of Ruby 2.1 are now retired.
+
+on job::/ {
+    { package.retire "package::/apcera/pkg/runtimes::ruby-2.1.0" }
+}
+
+on job::/ {
+    { package.retire "package::/apcera/pkg/runtimes::ruby-2.1.2" }
+}
+
+on job::/ {
+    { package.retire "package::/apcera/pkg/runtimes::ruby-2.1.5" }
+}
